@@ -1,3 +1,5 @@
 FROM ccsjesus/jboss-as-5
 
-CMD ["container-entrypoint", "./usr/local/bin/start_openshift.sh"]
+RUN ./iWorkplace/JBoss/bin/run.sh
+
+CMD ["container-entrypoint", ""]
